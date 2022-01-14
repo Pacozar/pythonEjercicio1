@@ -1,7 +1,5 @@
-
 import os
 import humanize
-
 
 root = "C:/users/paker/Downloads"
 listdir = os.listdir(root)
