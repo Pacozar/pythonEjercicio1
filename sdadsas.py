@@ -1,4 +1,3 @@
-
 import os
 import humanize
 
@@ -13,20 +12,6 @@ for file in listdir:
     print(file, 'Es un archivo', 'y su tamaño es', humanSize)
 
 
-for root, dir, file in os.walk(root):
-    for name in dir:
-        print(os.path.join(root, name))
-    for name in file:
-        print(os.path.join(root, name))
-
-        
-        
-
-
-
-
-
-    
-   
-
-
+if file is os.walk(root):
+    if name is file:
+        print(file)
