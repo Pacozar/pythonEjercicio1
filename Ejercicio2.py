@@ -35,11 +35,14 @@ def add():
 
 def search():
     nombre = input('Introduzca nombre de contacto: \n')
+    booleano = False
     for i in agenda:
         if nombre in i:
             print(i, agenda[i])
-    if nombre not in agenda:
-        print(nombre, 'No es un contacto de tu agenda')
+            booleano = True
+
+    if not booleano:
+        print(nombre, 'no es un contacto de tu agenda')
     main()
 
 
